@@ -1,0 +1,66 @@
+.add-button-holder {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+
+    i.icon.add-product {
+        font-size: 25px;
+        margin-right: 15px;
+    }
+}
+
+
+.card.product {
+    height: 376px;
+    margin: 10px !important;
+    display: inline-block;
+    vertical-align: top;
+
+    .admin-tools {
+        position: absolute;
+        right: -3px;
+        top: -22px;
+        display: flex;
+        font-size: 14px;
+
+        .icon.close {
+            cursor: pointer;
+            margin-bottom: 5px;
+        }
+    }
+
+
+    .image {
+        text-align: center;
+        img {
+            max-width: 250px;
+            width: 100%;
+        }
+    }
+
+    .product-info {
+        margin-top: 10px;
+        text-align: center;
+
+        .title {
+            font-weight: 600;
+        }
+
+        .price {
+            font-weight: 400;
+            color: #44a1ff;
+        }
+
+        .buy-button {
+            font-size: 11px;
+            font-weight: 600;
+            margin-top: 17px;
+            display: inline-block;
+            color: #000;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "title": "Ассорти",
+      "price": "120",
+      "id": 1,
+      "photo": "/uploads/1594280592827.webp"
+    },
+    {
+      "title": "Апельсин",
+      "price": "140",
+      "id": 2,
+      "photo": "/uploads/1594541178918.webp"
+    },
+    {
+      "title": "Клубника",
+      "price": "123",
+      "photo": "/uploads/1594542148468.webp",
+      "id": 3
+    }
+  ]
+}
